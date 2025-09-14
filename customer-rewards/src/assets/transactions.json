@@ -1,0 +1,3003 @@
+[
+  {},
+  {
+    "customerId": "c0042",
+    "transactionId": "t0001",
+    "date": "3/13/2025",
+    "total": 237.51
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t0002",
+    "date": "3/30/2025",
+    "total": 334.58
+  },
+  {
+    "customerId": "c0018",
+    "transactionId": "t0003",
+    "date": "1/2/2025",
+    "total": 175.42
+  },
+  {
+    "customerId": "c0024",
+    "transactionId": "t0004",
+    "date": "3/4/2025",
+    "total": 145.12
+  },
+  {
+    "customerId": "c0021",
+    "transactionId": "t0005",
+    "date": "2/28/2025",
+    "total": 335.48
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t0006",
+    "date": "1/22/2025",
+    "total": 70.53
+  },
+  {
+    "customerId": "c0011",
+    "transactionId": "t0007",
+    "date": "1/28/2025",
+    "total": 219.88
+  },
+  {
+    "customerId": "c0019",
+    "transactionId": "t0008",
+    "date": "1/11/2025",
+    "total": 253.14
+  },
+  {
+    "customerId": "c0034",
+    "transactionId": "t0009",
+    "date": "2/15/2025",
+    "total": 265.4
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t00010",
+    "date": "1/28/2025",
+    "total": 276.61
+  },
+  {
+    "customerId": "c0034",
+    "transactionId": "t00011",
+    "date": "1/1/2025",
+    "total": 240.47
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t00012",
+    "date": "2/12/2025",
+    "total": 74.92
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t00013",
+    "date": "2/21/2025",
+    "total": 86.83
+  },
+  {
+    "customerId": "c0027",
+    "transactionId": "t00014",
+    "date": "2/12/2025",
+    "total": 392.6
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t00015",
+    "date": "3/8/2025",
+    "total": 163.15
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t00016",
+    "date": "2/3/2025",
+    "total": 205.85
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t00017",
+    "date": "2/16/2025",
+    "total": 3.77
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t00018",
+    "date": "3/19/2025",
+    "total": 394.56
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t00019",
+    "date": "1/22/2025",
+    "total": 31.13
+  },
+  {
+    "customerId": "c0027",
+    "transactionId": "t00020",
+    "date": "1/3/2025",
+    "total": 62.13
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t00021",
+    "date": "1/14/2025",
+    "total": 4.48
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t00022",
+    "date": "2/27/2025",
+    "total": 208.62
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t00023",
+    "date": "1/15/2025",
+    "total": 68.99
+  },
+  {
+    "customerId": "c0016",
+    "transactionId": "t00024",
+    "date": "3/29/2025",
+    "total": 376.49
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t00025",
+    "date": "3/28/2025",
+    "total": 95.32
+  },
+  {
+    "customerId": "c000",
+    "transactionId": "t00026",
+    "date": "2/18/2025",
+    "total": 264.49
+  },
+  {
+    "customerId": "c004",
+    "transactionId": "t00027",
+    "date": "2/25/2025",
+    "total": 141.33
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t00028",
+    "date": "1/21/2025",
+    "total": 49.54
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t00029",
+    "date": "1/5/2025",
+    "total": 247.92
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t00030",
+    "date": "3/9/2025",
+    "total": 144.29
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t00031",
+    "date": "1/14/2025",
+    "total": 304.62
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t00032",
+    "date": "1/19/2025",
+    "total": 292.77
+  },
+  {
+    "customerId": "c0019",
+    "transactionId": "t00033",
+    "date": "2/8/2025",
+    "total": 352.28
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t00034",
+    "date": "1/6/2025",
+    "total": 375.52
+  },
+  {
+    "customerId": "c0045",
+    "transactionId": "t00035",
+    "date": "3/8/2025",
+    "total": 298.08
+  },
+  {
+    "customerId": "c0031",
+    "transactionId": "t00036",
+    "date": "1/4/2025",
+    "total": 254.98
+  },
+  {
+    "customerId": "c0038",
+    "transactionId": "t00037",
+    "date": "1/1/2025",
+    "total": 76.79
+  },
+  {
+    "customerId": "c0040",
+    "transactionId": "t00038",
+    "date": "2/1/2025",
+    "total": 208.72
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t00039",
+    "date": "3/4/2025",
+    "total": 347.23
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t00040",
+    "date": "2/17/2025",
+    "total": 366.95
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t00041",
+    "date": "1/1/2025",
+    "total": 239.72
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t00042",
+    "date": "2/20/2025",
+    "total": 354.24
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t00043",
+    "date": "2/23/2025",
+    "total": 85.91
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t00044",
+    "date": "3/29/2025",
+    "total": 125.1
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t00045",
+    "date": "1/1/2025",
+    "total": 24.06
+  },
+  {
+    "customerId": "c0021",
+    "transactionId": "t00046",
+    "date": "3/12/2025",
+    "total": 319.23
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t00047",
+    "date": "3/13/2025",
+    "total": 279.08
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t00048",
+    "date": "3/22/2025",
+    "total": 210.11
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t00049",
+    "date": "1/26/2025",
+    "total": 332.58
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t00050",
+    "date": "3/15/2025",
+    "total": 303.03
+  },
+  {
+    "customerId": "c0031",
+    "transactionId": "t00051",
+    "date": "1/16/2025",
+    "total": 361.3
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t00052",
+    "date": "3/2/2025",
+    "total": 197.69
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t00053",
+    "date": "2/10/2025",
+    "total": 359.17
+  },
+  {
+    "customerId": "c000",
+    "transactionId": "t00054",
+    "date": "1/21/2025",
+    "total": 12.99
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t00055",
+    "date": "1/21/2025",
+    "total": 295.32
+  },
+  {
+    "customerId": "c0045",
+    "transactionId": "t00056",
+    "date": "3/12/2025",
+    "total": 95.75
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t00057",
+    "date": "2/24/2025",
+    "total": 361.07
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t00058",
+    "date": "3/9/2025",
+    "total": 277.09
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t00059",
+    "date": "1/13/2025",
+    "total": 392.96
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t00060",
+    "date": "1/23/2025",
+    "total": 68.47
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t00061",
+    "date": "2/1/2025",
+    "total": 265.58
+  },
+  {
+    "customerId": "c0019",
+    "transactionId": "t00062",
+    "date": "1/20/2025",
+    "total": 183.57
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t00063",
+    "date": "3/7/2025",
+    "total": 37.39
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t00064",
+    "date": "3/20/2025",
+    "total": 248.86
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t00065",
+    "date": "2/27/2025",
+    "total": 117.66
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t00066",
+    "date": "2/24/2025",
+    "total": 320.76
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t00067",
+    "date": "2/1/2025",
+    "total": 70.8
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t00068",
+    "date": "2/21/2025",
+    "total": 220.78
+  },
+  {
+    "customerId": "c0038",
+    "transactionId": "t00069",
+    "date": "2/1/2025",
+    "total": 212.38
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t00070",
+    "date": "1/16/2025",
+    "total": 368.62
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t00071",
+    "date": "3/18/2025",
+    "total": 157.39
+  },
+  {
+    "customerId": "c0016",
+    "transactionId": "t00072",
+    "date": "2/12/2025",
+    "total": 51.16
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t00073",
+    "date": "1/23/2025",
+    "total": 170.59
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t00074",
+    "date": "2/9/2025",
+    "total": 268.05
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t00075",
+    "date": "1/13/2025",
+    "total": 75.51
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t00076",
+    "date": "1/18/2025",
+    "total": 143.77
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t00077",
+    "date": "3/25/2025",
+    "total": 244.3
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t00078",
+    "date": "2/15/2025",
+    "total": 341.67
+  },
+  {
+    "customerId": "c0024",
+    "transactionId": "t00079",
+    "date": "3/17/2025",
+    "total": 135.73
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t00080",
+    "date": "2/20/2025",
+    "total": 220.54
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t00081",
+    "date": "1/3/2025",
+    "total": 58.8
+  },
+  {
+    "customerId": "c0034",
+    "transactionId": "t00082",
+    "date": "1/17/2025",
+    "total": 21.06
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t00083",
+    "date": "1/30/2025",
+    "total": 246.28
+  },
+  {
+    "customerId": "c0035",
+    "transactionId": "t00084",
+    "date": "1/10/2025",
+    "total": 376.9
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t00085",
+    "date": "1/14/2025",
+    "total": 336.31
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t00086",
+    "date": "1/8/2025",
+    "total": 2.26
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t00087",
+    "date": "3/23/2025",
+    "total": 194.02
+  },
+  {
+    "customerId": "c004",
+    "transactionId": "t00088",
+    "date": "3/7/2025",
+    "total": 17.84
+  },
+  {
+    "customerId": "c0024",
+    "transactionId": "t00089",
+    "date": "3/13/2025",
+    "total": 375.51
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t00090",
+    "date": "1/8/2025",
+    "total": 352.98
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t00091",
+    "date": "2/23/2025",
+    "total": 133.63
+  },
+  {
+    "customerId": "c0019",
+    "transactionId": "t00092",
+    "date": "3/11/2025",
+    "total": 321.64
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t00093",
+    "date": "3/16/2025",
+    "total": 118.93
+  },
+  {
+    "customerId": "c0011",
+    "transactionId": "t00094",
+    "date": "3/3/2025",
+    "total": 104.2
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t00095",
+    "date": "1/19/2025",
+    "total": 205.6
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t00096",
+    "date": "3/26/2025",
+    "total": 130.28
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t00097",
+    "date": "1/31/2025",
+    "total": 24.49
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t00098",
+    "date": "3/17/2025",
+    "total": 56.78
+  },
+  {
+    "customerId": "c0015",
+    "transactionId": "t00099",
+    "date": "1/8/2025",
+    "total": 226
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000100",
+    "date": "3/15/2025",
+    "total": 218.04
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000101",
+    "date": "2/16/2025",
+    "total": 318.46
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t000102",
+    "date": "1/1/2025",
+    "total": 280.68
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000103",
+    "date": "2/8/2025",
+    "total": 184.26
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000104",
+    "date": "2/25/2025",
+    "total": 394.18
+  },
+  {
+    "customerId": "c0034",
+    "transactionId": "t000105",
+    "date": "1/26/2025",
+    "total": 198.55
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000106",
+    "date": "3/30/2025",
+    "total": 307.39
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000107",
+    "date": "2/25/2025",
+    "total": 235.94
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t000108",
+    "date": "1/9/2025",
+    "total": 60.73
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000109",
+    "date": "3/17/2025",
+    "total": 353.28
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000110",
+    "date": "1/13/2025",
+    "total": 228.65
+  },
+  {
+    "customerId": "c0035",
+    "transactionId": "t000111",
+    "date": "2/19/2025",
+    "total": 32.11
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000112",
+    "date": "3/24/2025",
+    "total": 363.2
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000113",
+    "date": "2/3/2025",
+    "total": 287.61
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t000114",
+    "date": "3/22/2025",
+    "total": 104.84
+  },
+  {
+    "customerId": "c0024",
+    "transactionId": "t000115",
+    "date": "1/23/2025",
+    "total": 341.97
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000116",
+    "date": "3/27/2025",
+    "total": 76.64
+  },
+  {
+    "customerId": "c0021",
+    "transactionId": "t000117",
+    "date": "1/15/2025",
+    "total": 112.18
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000118",
+    "date": "2/15/2025",
+    "total": 112.16
+  },
+  {
+    "customerId": "c0013",
+    "transactionId": "t000119",
+    "date": "2/21/2025",
+    "total": 217.97
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000120",
+    "date": "3/18/2025",
+    "total": 143.78
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000121",
+    "date": "3/16/2025",
+    "total": 113.08
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000122",
+    "date": "2/12/2025",
+    "total": 125.39
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000123",
+    "date": "2/17/2025",
+    "total": 237.9
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000124",
+    "date": "3/3/2025",
+    "total": 180.76
+  },
+  {
+    "customerId": "c0033",
+    "transactionId": "t000125",
+    "date": "1/4/2025",
+    "total": 292.68
+  },
+  {
+    "customerId": "c0015",
+    "transactionId": "t000126",
+    "date": "3/7/2025",
+    "total": 324.52
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000127",
+    "date": "3/26/2025",
+    "total": 164.3
+  },
+  {
+    "customerId": "c0013",
+    "transactionId": "t000128",
+    "date": "1/1/2025",
+    "total": 310.2
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000129",
+    "date": "1/11/2025",
+    "total": 288.51
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t000130",
+    "date": "3/8/2025",
+    "total": 337.97
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000131",
+    "date": "2/25/2025",
+    "total": 140.59
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000132",
+    "date": "2/9/2025",
+    "total": 364.9
+  },
+  {
+    "customerId": "c0015",
+    "transactionId": "t000133",
+    "date": "3/30/2025",
+    "total": 258.31
+  },
+  {
+    "customerId": "c0031",
+    "transactionId": "t000134",
+    "date": "3/11/2025",
+    "total": 192.9
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000135",
+    "date": "1/25/2025",
+    "total": 60.02
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000136",
+    "date": "1/23/2025",
+    "total": 339.11
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000137",
+    "date": "2/24/2025",
+    "total": 126.13
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000138",
+    "date": "3/30/2025",
+    "total": 138.28
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t000139",
+    "date": "3/24/2025",
+    "total": 74.67
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000140",
+    "date": "3/29/2025",
+    "total": 70.64
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000141",
+    "date": "1/28/2025",
+    "total": 367.74
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000142",
+    "date": "2/16/2025",
+    "total": 213.88
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t000143",
+    "date": "1/29/2025",
+    "total": 34.11
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000144",
+    "date": "3/10/2025",
+    "total": 122.92
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000145",
+    "date": "2/13/2025",
+    "total": 295.27
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t000146",
+    "date": "3/16/2025",
+    "total": 317.86
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t000147",
+    "date": "2/9/2025",
+    "total": 233.78
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000148",
+    "date": "1/26/2025",
+    "total": 17.28
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000149",
+    "date": "3/9/2025",
+    "total": 127.32
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000150",
+    "date": "2/8/2025",
+    "total": 117.84
+  },
+  {
+    "customerId": "c0035",
+    "transactionId": "t000151",
+    "date": "2/20/2025",
+    "total": 98.69
+  },
+  {
+    "customerId": "c0019",
+    "transactionId": "t000152",
+    "date": "1/17/2025",
+    "total": 124.28
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000153",
+    "date": "1/19/2025",
+    "total": 131.32
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000154",
+    "date": "3/3/2025",
+    "total": 56.22
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000155",
+    "date": "1/9/2025",
+    "total": 179.94
+  },
+  {
+    "customerId": "c0013",
+    "transactionId": "t000156",
+    "date": "1/2/2025",
+    "total": 82.85
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000157",
+    "date": "3/5/2025",
+    "total": 17.47
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000158",
+    "date": "1/10/2025",
+    "total": 255.82
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t000159",
+    "date": "3/22/2025",
+    "total": 97.96
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000160",
+    "date": "3/20/2025",
+    "total": 148.35
+  },
+  {
+    "customerId": "c0045",
+    "transactionId": "t000161",
+    "date": "2/12/2025",
+    "total": 137.72
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t000162",
+    "date": "3/2/2025",
+    "total": 321.88
+  },
+  {
+    "customerId": "c0038",
+    "transactionId": "t000163",
+    "date": "2/21/2025",
+    "total": 135.68
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000164",
+    "date": "2/16/2025",
+    "total": 362.17
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000165",
+    "date": "1/10/2025",
+    "total": 80.84
+  },
+  {
+    "customerId": "c0031",
+    "transactionId": "t000166",
+    "date": "3/2/2025",
+    "total": 209.57
+  },
+  {
+    "customerId": "c0035",
+    "transactionId": "t000167",
+    "date": "3/8/2025",
+    "total": 343.37
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000168",
+    "date": "1/10/2025",
+    "total": 384.42
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000169",
+    "date": "3/19/2025",
+    "total": 90.66
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000170",
+    "date": "2/12/2025",
+    "total": 372.6
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000171",
+    "date": "2/12/2025",
+    "total": 359.3
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000172",
+    "date": "3/25/2025",
+    "total": 213.64
+  },
+  {
+    "customerId": "c0011",
+    "transactionId": "t000173",
+    "date": "2/23/2025",
+    "total": 143.46
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000174",
+    "date": "1/25/2025",
+    "total": 53.67
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t000175",
+    "date": "1/11/2025",
+    "total": 316.56
+  },
+  {
+    "customerId": "c000",
+    "transactionId": "t000176",
+    "date": "3/29/2025",
+    "total": 275.39
+  },
+  {
+    "customerId": "c0027",
+    "transactionId": "t000177",
+    "date": "1/22/2025",
+    "total": 254.78
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000178",
+    "date": "3/19/2025",
+    "total": 312.95
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000179",
+    "date": "2/18/2025",
+    "total": 257.3
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000180",
+    "date": "2/14/2025",
+    "total": 300.02
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000181",
+    "date": "2/18/2025",
+    "total": 80.32
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000182",
+    "date": "2/22/2025",
+    "total": 329.93
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000183",
+    "date": "3/26/2025",
+    "total": 126.49
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000184",
+    "date": "3/20/2025",
+    "total": 254.79
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000185",
+    "date": "3/3/2025",
+    "total": 148.08
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000186",
+    "date": "1/23/2025",
+    "total": 89.22
+  },
+  {
+    "customerId": "c0024",
+    "transactionId": "t000187",
+    "date": "3/11/2025",
+    "total": 225.47
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000188",
+    "date": "2/3/2025",
+    "total": 281.94
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000189",
+    "date": "1/2/2025",
+    "total": 246.75
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000190",
+    "date": "3/12/2025",
+    "total": 231.63
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000191",
+    "date": "2/23/2025",
+    "total": 214.09
+  },
+  {
+    "customerId": "c0018",
+    "transactionId": "t000192",
+    "date": "3/8/2025",
+    "total": 274.75
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t000193",
+    "date": "1/29/2025",
+    "total": 232.44
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t000194",
+    "date": "2/21/2025",
+    "total": 240.16
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000195",
+    "date": "2/15/2025",
+    "total": 238.16
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000196",
+    "date": "3/23/2025",
+    "total": 182.99
+  },
+  {
+    "customerId": "c0040",
+    "transactionId": "t000197",
+    "date": "2/4/2025",
+    "total": 192.04
+  },
+  {
+    "customerId": "c0027",
+    "transactionId": "t000198",
+    "date": "1/22/2025",
+    "total": 262.67
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t000199",
+    "date": "1/22/2025",
+    "total": 30.81
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000200",
+    "date": "2/15/2025",
+    "total": 249.35
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000201",
+    "date": "1/13/2025",
+    "total": 175.24
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000202",
+    "date": "3/25/2025",
+    "total": 311.69
+  },
+  {
+    "customerId": "c0040",
+    "transactionId": "t000203",
+    "date": "3/22/2025",
+    "total": 175.49
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000204",
+    "date": "3/25/2025",
+    "total": 85.65
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t000205",
+    "date": "3/30/2025",
+    "total": 293.47
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t000206",
+    "date": "3/10/2025",
+    "total": 121.89
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t000207",
+    "date": "1/11/2025",
+    "total": 192.8
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000208",
+    "date": "2/3/2025",
+    "total": 378.52
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t000209",
+    "date": "1/1/2025",
+    "total": 393.4
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t000210",
+    "date": "3/16/2025",
+    "total": 78.55
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t000211",
+    "date": "2/24/2025",
+    "total": 104.06
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t000212",
+    "date": "1/15/2025",
+    "total": 120.73
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000213",
+    "date": "2/17/2025",
+    "total": 363.41
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000214",
+    "date": "3/1/2025",
+    "total": 167.61
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000215",
+    "date": "2/2/2025",
+    "total": 71.09
+  },
+  {
+    "customerId": "c0049",
+    "transactionId": "t000216",
+    "date": "1/21/2025",
+    "total": 239.48
+  },
+  {
+    "customerId": "c0049",
+    "transactionId": "t000217",
+    "date": "1/2/2025",
+    "total": 370.28
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000218",
+    "date": "2/9/2025",
+    "total": 373.27
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000219",
+    "date": "1/25/2025",
+    "total": 370.1
+  },
+  {
+    "customerId": "c0016",
+    "transactionId": "t000220",
+    "date": "1/17/2025",
+    "total": 224.53
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000221",
+    "date": "2/10/2025",
+    "total": 91.87
+  },
+  {
+    "customerId": "c0040",
+    "transactionId": "t000222",
+    "date": "3/2/2025",
+    "total": 386.83
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t000223",
+    "date": "3/5/2025",
+    "total": 245.93
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000224",
+    "date": "3/18/2025",
+    "total": 369.85
+  },
+  {
+    "customerId": "c0038",
+    "transactionId": "t000225",
+    "date": "1/2/2025",
+    "total": 161.87
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000226",
+    "date": "1/31/2025",
+    "total": 204.86
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000227",
+    "date": "3/18/2025",
+    "total": 9.69
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t000228",
+    "date": "1/15/2025",
+    "total": 115.32
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000229",
+    "date": "3/1/2025",
+    "total": 40.34
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t000230",
+    "date": "1/6/2025",
+    "total": 354.48
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t000231",
+    "date": "2/25/2025",
+    "total": 316.32
+  },
+  {
+    "customerId": "c0033",
+    "transactionId": "t000232",
+    "date": "2/23/2025",
+    "total": 189.16
+  },
+  {
+    "customerId": "c000",
+    "transactionId": "t000233",
+    "date": "3/20/2025",
+    "total": 143.18
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000234",
+    "date": "1/5/2025",
+    "total": 367.63
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000235",
+    "date": "3/16/2025",
+    "total": 129.46
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000236",
+    "date": "2/19/2025",
+    "total": 217.67
+  },
+  {
+    "customerId": "c0018",
+    "transactionId": "t000237",
+    "date": "1/17/2025",
+    "total": 399.73
+  },
+  {
+    "customerId": "c0015",
+    "transactionId": "t000238",
+    "date": "2/11/2025",
+    "total": 252.54
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t000239",
+    "date": "3/13/2025",
+    "total": 265.21
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000240",
+    "date": "2/15/2025",
+    "total": 377.99
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000241",
+    "date": "1/12/2025",
+    "total": 189.19
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000242",
+    "date": "1/4/2025",
+    "total": 234.98
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000243",
+    "date": "2/28/2025",
+    "total": 73.29
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000244",
+    "date": "3/10/2025",
+    "total": 2.87
+  },
+  {
+    "customerId": "c0024",
+    "transactionId": "t000245",
+    "date": "2/25/2025",
+    "total": 89.38
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000246",
+    "date": "1/10/2025",
+    "total": 69.36
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000247",
+    "date": "2/19/2025",
+    "total": 260.11
+  },
+  {
+    "customerId": "c004",
+    "transactionId": "t000248",
+    "date": "2/25/2025",
+    "total": 315.66
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000249",
+    "date": "3/24/2025",
+    "total": 204.34
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000250",
+    "date": "3/10/2025",
+    "total": 24.52
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000251",
+    "date": "2/11/2025",
+    "total": 350.15
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t000252",
+    "date": "3/6/2025",
+    "total": 300.01
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000253",
+    "date": "1/31/2025",
+    "total": 380.08
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000254",
+    "date": "1/4/2025",
+    "total": 394.37
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000255",
+    "date": "2/3/2025",
+    "total": 370.45
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000256",
+    "date": "2/5/2025",
+    "total": 126.56
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t000257",
+    "date": "2/15/2025",
+    "total": 295.89
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000258",
+    "date": "2/13/2025",
+    "total": 134.23
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000259",
+    "date": "3/8/2025",
+    "total": 370.49
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t000260",
+    "date": "3/8/2025",
+    "total": 289.6
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t000261",
+    "date": "1/22/2025",
+    "total": 241.83
+  },
+  {
+    "customerId": "c0011",
+    "transactionId": "t000262",
+    "date": "2/11/2025",
+    "total": 265.95
+  },
+  {
+    "customerId": "c0034",
+    "transactionId": "t000263",
+    "date": "1/10/2025",
+    "total": 282.22
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000264",
+    "date": "2/4/2025",
+    "total": 29.5
+  },
+  {
+    "customerId": "c0027",
+    "transactionId": "t000265",
+    "date": "2/8/2025",
+    "total": 56.06
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000266",
+    "date": "3/15/2025",
+    "total": 349.79
+  },
+  {
+    "customerId": "c0018",
+    "transactionId": "t000267",
+    "date": "1/15/2025",
+    "total": 310.24
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000268",
+    "date": "1/9/2025",
+    "total": 295.64
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000269",
+    "date": "3/21/2025",
+    "total": 48.01
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000270",
+    "date": "3/9/2025",
+    "total": 126.82
+  },
+  {
+    "customerId": "c0018",
+    "transactionId": "t000271",
+    "date": "1/22/2025",
+    "total": 264.96
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000272",
+    "date": "2/12/2025",
+    "total": 218.55
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t000273",
+    "date": "3/11/2025",
+    "total": 394.14
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000274",
+    "date": "1/28/2025",
+    "total": 140.17
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000275",
+    "date": "1/3/2025",
+    "total": 77.58
+  },
+  {
+    "customerId": "c0016",
+    "transactionId": "t000276",
+    "date": "2/7/2025",
+    "total": 289.8
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000277",
+    "date": "3/18/2025",
+    "total": 223.83
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t000278",
+    "date": "1/28/2025",
+    "total": 20.15
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000279",
+    "date": "1/14/2025",
+    "total": 398.62
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000280",
+    "date": "3/15/2025",
+    "total": 146.07
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000281",
+    "date": "1/11/2025",
+    "total": 175.07
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000282",
+    "date": "3/2/2025",
+    "total": 94.47
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000283",
+    "date": "1/3/2025",
+    "total": 145.87
+  },
+  {
+    "customerId": "c0021",
+    "transactionId": "t000284",
+    "date": "2/26/2025",
+    "total": 97.33
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000285",
+    "date": "1/3/2025",
+    "total": 195
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t000286",
+    "date": "1/6/2025",
+    "total": 163.53
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000287",
+    "date": "3/10/2025",
+    "total": 15.58
+  },
+  {
+    "customerId": "c0024",
+    "transactionId": "t000288",
+    "date": "2/21/2025",
+    "total": 377.64
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000289",
+    "date": "1/12/2025",
+    "total": 204.96
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000290",
+    "date": "2/10/2025",
+    "total": 320.2
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000291",
+    "date": "1/3/2025",
+    "total": 129.17
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000292",
+    "date": "2/27/2025",
+    "total": 389.1
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000293",
+    "date": "1/22/2025",
+    "total": 263.44
+  },
+  {
+    "customerId": "c0027",
+    "transactionId": "t000294",
+    "date": "1/1/2025",
+    "total": 113.44
+  },
+  {
+    "customerId": "c0023",
+    "transactionId": "t000295",
+    "date": "3/20/2025",
+    "total": 277.03
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000296",
+    "date": "2/25/2025",
+    "total": 234.96
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000297",
+    "date": "2/26/2025",
+    "total": 47.36
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000298",
+    "date": "3/11/2025",
+    "total": 153.15
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000299",
+    "date": "1/11/2025",
+    "total": 29.88
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000300",
+    "date": "3/25/2025",
+    "total": 396.62
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000301",
+    "date": "3/18/2025",
+    "total": 234.48
+  },
+  {
+    "customerId": "c0049",
+    "transactionId": "t000302",
+    "date": "3/23/2025",
+    "total": 189.51
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000303",
+    "date": "2/14/2025",
+    "total": 194.69
+  },
+  {
+    "customerId": "c0011",
+    "transactionId": "t000304",
+    "date": "2/21/2025",
+    "total": 301.44
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000305",
+    "date": "1/24/2025",
+    "total": 134.74
+  },
+  {
+    "customerId": "c0035",
+    "transactionId": "t000306",
+    "date": "2/26/2025",
+    "total": 98.9
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t000307",
+    "date": "2/1/2025",
+    "total": 250.25
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000308",
+    "date": "2/13/2025",
+    "total": 98.67
+  },
+  {
+    "customerId": "c004",
+    "transactionId": "t000309",
+    "date": "2/26/2025",
+    "total": 259.95
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t000310",
+    "date": "2/9/2025",
+    "total": 247.2
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000311",
+    "date": "3/9/2025",
+    "total": 40.84
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000312",
+    "date": "3/7/2025",
+    "total": 321.34
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000313",
+    "date": "2/24/2025",
+    "total": 314.19
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000314",
+    "date": "2/11/2025",
+    "total": 129.8
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000315",
+    "date": "3/5/2025",
+    "total": 216.97
+  },
+  {
+    "customerId": "c0045",
+    "transactionId": "t000316",
+    "date": "3/22/2025",
+    "total": 61.89
+  },
+  {
+    "customerId": "c0049",
+    "transactionId": "t000317",
+    "date": "1/11/2025",
+    "total": 214.79
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000318",
+    "date": "3/24/2025",
+    "total": 222.9
+  },
+  {
+    "customerId": "c000",
+    "transactionId": "t000319",
+    "date": "2/12/2025",
+    "total": 21.77
+  },
+  {
+    "customerId": "c0027",
+    "transactionId": "t000320",
+    "date": "3/18/2025",
+    "total": 42.47
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000321",
+    "date": "2/12/2025",
+    "total": 162.72
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t000322",
+    "date": "3/18/2025",
+    "total": 230.9
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000323",
+    "date": "2/18/2025",
+    "total": 148.67
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000324",
+    "date": "1/15/2025",
+    "total": 187.87
+  },
+  {
+    "customerId": "c0034",
+    "transactionId": "t000325",
+    "date": "3/6/2025",
+    "total": 311.58
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000326",
+    "date": "3/15/2025",
+    "total": 72.1
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000327",
+    "date": "1/31/2025",
+    "total": 326.9
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000328",
+    "date": "1/27/2025",
+    "total": 119.77
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000329",
+    "date": "3/14/2025",
+    "total": 219.77
+  },
+  {
+    "customerId": "c0040",
+    "transactionId": "t000330",
+    "date": "1/24/2025",
+    "total": 372.48
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000331",
+    "date": "3/14/2025",
+    "total": 115.8
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000332",
+    "date": "3/4/2025",
+    "total": 370.39
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000333",
+    "date": "1/9/2025",
+    "total": 216.17
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000334",
+    "date": "3/12/2025",
+    "total": 127.36
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000335",
+    "date": "2/11/2025",
+    "total": 23.21
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000336",
+    "date": "2/16/2025",
+    "total": 389.13
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t000337",
+    "date": "3/14/2025",
+    "total": 386.85
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000338",
+    "date": "1/17/2025",
+    "total": 267.89
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t000339",
+    "date": "1/20/2025",
+    "total": 202.09
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000340",
+    "date": "1/19/2025",
+    "total": 102.31
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t000341",
+    "date": "3/10/2025",
+    "total": 365.89
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000342",
+    "date": "2/16/2025",
+    "total": 249.21
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000343",
+    "date": "2/12/2025",
+    "total": 276.66
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000344",
+    "date": "2/16/2025",
+    "total": 381.7
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000345",
+    "date": "2/1/2025",
+    "total": 353.92
+  },
+  {
+    "customerId": "c000",
+    "transactionId": "t000346",
+    "date": "1/18/2025",
+    "total": 104.85
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000347",
+    "date": "2/21/2025",
+    "total": 138.69
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t000348",
+    "date": "2/11/2025",
+    "total": 18.98
+  },
+  {
+    "customerId": "c0033",
+    "transactionId": "t000349",
+    "date": "1/5/2025",
+    "total": 5.65
+  },
+  {
+    "customerId": "c0038",
+    "transactionId": "t000350",
+    "date": "2/19/2025",
+    "total": 171.76
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000351",
+    "date": "3/6/2025",
+    "total": 81.34
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t000352",
+    "date": "1/12/2025",
+    "total": 187.11
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000353",
+    "date": "1/27/2025",
+    "total": 49.31
+  },
+  {
+    "customerId": "c0034",
+    "transactionId": "t000354",
+    "date": "1/10/2025",
+    "total": 398.14
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000355",
+    "date": "2/13/2025",
+    "total": 98.87
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t000356",
+    "date": "1/31/2025",
+    "total": 225.79
+  },
+  {
+    "customerId": "c0021",
+    "transactionId": "t000357",
+    "date": "3/20/2025",
+    "total": 103.8
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t000358",
+    "date": "2/16/2025",
+    "total": 78.82
+  },
+  {
+    "customerId": "c0016",
+    "transactionId": "t000359",
+    "date": "1/28/2025",
+    "total": 39.18
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000360",
+    "date": "1/17/2025",
+    "total": 67.24
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000361",
+    "date": "2/28/2025",
+    "total": 295.57
+  },
+  {
+    "customerId": "c006",
+    "transactionId": "t000362",
+    "date": "2/1/2025",
+    "total": 384.31
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000363",
+    "date": "1/7/2025",
+    "total": 292.16
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000364",
+    "date": "1/28/2025",
+    "total": 293.01
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000365",
+    "date": "3/30/2025",
+    "total": 352.6
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000366",
+    "date": "1/8/2025",
+    "total": 279.51
+  },
+  {
+    "customerId": "c0038",
+    "transactionId": "t000367",
+    "date": "2/16/2025",
+    "total": 123.2
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000368",
+    "date": "2/19/2025",
+    "total": 303.21
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000369",
+    "date": "1/6/2025",
+    "total": 373.14
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000370",
+    "date": "3/29/2025",
+    "total": 215.13
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000371",
+    "date": "2/14/2025",
+    "total": 267.59
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000372",
+    "date": "3/26/2025",
+    "total": 98.52
+  },
+  {
+    "customerId": "c0045",
+    "transactionId": "t000373",
+    "date": "2/18/2025",
+    "total": 89.02
+  },
+  {
+    "customerId": "c0018",
+    "transactionId": "t000374",
+    "date": "1/8/2025",
+    "total": 281.22
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000375",
+    "date": "3/12/2025",
+    "total": 101.43
+  },
+  {
+    "customerId": "c0033",
+    "transactionId": "t000376",
+    "date": "3/21/2025",
+    "total": 305.84
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000377",
+    "date": "3/25/2025",
+    "total": 130.48
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000378",
+    "date": "1/14/2025",
+    "total": 202.33
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000379",
+    "date": "2/10/2025",
+    "total": 18.34
+  },
+  {
+    "customerId": "c0013",
+    "transactionId": "t000380",
+    "date": "3/10/2025",
+    "total": 21.7
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000381",
+    "date": "1/18/2025",
+    "total": 158.16
+  },
+  {
+    "customerId": "c0045",
+    "transactionId": "t000382",
+    "date": "2/9/2025",
+    "total": 296.2
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000383",
+    "date": "1/5/2025",
+    "total": 206.19
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000384",
+    "date": "2/18/2025",
+    "total": 331.73
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000385",
+    "date": "2/8/2025",
+    "total": 397.27
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000386",
+    "date": "2/12/2025",
+    "total": 237.63
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000387",
+    "date": "3/30/2025",
+    "total": 351.34
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000388",
+    "date": "1/28/2025",
+    "total": 174.65
+  },
+  {
+    "customerId": "c0021",
+    "transactionId": "t000389",
+    "date": "3/29/2025",
+    "total": 208.45
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000390",
+    "date": "2/9/2025",
+    "total": 243.96
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000391",
+    "date": "1/26/2025",
+    "total": 206.87
+  },
+  {
+    "customerId": "c0019",
+    "transactionId": "t000392",
+    "date": "1/4/2025",
+    "total": 345.57
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000393",
+    "date": "2/23/2025",
+    "total": 190.29
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000394",
+    "date": "3/2/2025",
+    "total": 376.69
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000395",
+    "date": "1/25/2025",
+    "total": 145.19
+  },
+  {
+    "customerId": "c0013",
+    "transactionId": "t000396",
+    "date": "2/26/2025",
+    "total": 214.03
+  },
+  {
+    "customerId": "c0049",
+    "transactionId": "t000397",
+    "date": "1/21/2025",
+    "total": 3.16
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t000398",
+    "date": "2/23/2025",
+    "total": 108.8
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t000399",
+    "date": "2/28/2025",
+    "total": 127.7
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000400",
+    "date": "2/25/2025",
+    "total": 129.22
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000401",
+    "date": "2/19/2025",
+    "total": 202.16
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000402",
+    "date": "1/1/2025",
+    "total": 81.38
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000403",
+    "date": "2/12/2025",
+    "total": 393.2
+  },
+  {
+    "customerId": "c0041",
+    "transactionId": "t000404",
+    "date": "2/28/2025",
+    "total": 113.77
+  },
+  {
+    "customerId": "c0019",
+    "transactionId": "t000405",
+    "date": "3/10/2025",
+    "total": 126.43
+  },
+  {
+    "customerId": "c0031",
+    "transactionId": "t000406",
+    "date": "1/9/2025",
+    "total": 79.87
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000407",
+    "date": "3/22/2025",
+    "total": 357.94
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000408",
+    "date": "1/5/2025",
+    "total": 112.23
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000409",
+    "date": "2/3/2025",
+    "total": 368.07
+  },
+  {
+    "customerId": "c0040",
+    "transactionId": "t000410",
+    "date": "2/4/2025",
+    "total": 237.27
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000411",
+    "date": "2/12/2025",
+    "total": 82.41
+  },
+  {
+    "customerId": "c0016",
+    "transactionId": "t000412",
+    "date": "1/28/2025",
+    "total": 400.68
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000413",
+    "date": "1/4/2025",
+    "total": 129.37
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000414",
+    "date": "3/20/2025",
+    "total": 332.87
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000415",
+    "date": "1/1/2025",
+    "total": 97.41
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000416",
+    "date": "2/4/2025",
+    "total": 160.63
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000417",
+    "date": "2/14/2025",
+    "total": 51.19
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000418",
+    "date": "2/21/2025",
+    "total": 235.6
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000419",
+    "date": "3/6/2025",
+    "total": 92.04
+  },
+  {
+    "customerId": "c0033",
+    "transactionId": "t000420",
+    "date": "2/1/2025",
+    "total": 392.74
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000421",
+    "date": "1/2/2025",
+    "total": 171.27
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000422",
+    "date": "2/22/2025",
+    "total": 167.14
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000423",
+    "date": "2/15/2025",
+    "total": 375.63
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t000424",
+    "date": "1/27/2025",
+    "total": 107.7
+  },
+  {
+    "customerId": "c0016",
+    "transactionId": "t000425",
+    "date": "2/5/2025",
+    "total": 212.74
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t000426",
+    "date": "1/3/2025",
+    "total": 62.97
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000427",
+    "date": "1/26/2025",
+    "total": 131.62
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000428",
+    "date": "3/29/2025",
+    "total": 315.84
+  },
+  {
+    "customerId": "c0024",
+    "transactionId": "t000429",
+    "date": "3/5/2025",
+    "total": 181.14
+  },
+  {
+    "customerId": "c002",
+    "transactionId": "t000430",
+    "date": "1/23/2025",
+    "total": 30.31
+  },
+  {
+    "customerId": "c0016",
+    "transactionId": "t000431",
+    "date": "1/28/2025",
+    "total": 340.25
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t000432",
+    "date": "3/28/2025",
+    "total": 14.57
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000433",
+    "date": "1/1/2025",
+    "total": 366.24
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000434",
+    "date": "1/4/2025",
+    "total": 161.31
+  },
+  {
+    "customerId": "c0042",
+    "transactionId": "t000435",
+    "date": "1/1/2025",
+    "total": 49.99
+  },
+  {
+    "customerId": "c0013",
+    "transactionId": "t000436",
+    "date": "1/15/2025",
+    "total": 221.46
+  },
+  {
+    "customerId": "c0018",
+    "transactionId": "t000437",
+    "date": "2/24/2025",
+    "total": 356.53
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000438",
+    "date": "1/16/2025",
+    "total": 144.46
+  },
+  {
+    "customerId": "c0021",
+    "transactionId": "t000439",
+    "date": "1/10/2025",
+    "total": 69.26
+  },
+  {
+    "customerId": "c0018",
+    "transactionId": "t000440",
+    "date": "1/5/2025",
+    "total": 124.97
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000441",
+    "date": "2/22/2025",
+    "total": 361.19
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000442",
+    "date": "3/1/2025",
+    "total": 121.49
+  },
+  {
+    "customerId": "c0011",
+    "transactionId": "t000443",
+    "date": "2/2/2025",
+    "total": 322.05
+  },
+  {
+    "customerId": "c0035",
+    "transactionId": "t000444",
+    "date": "3/1/2025",
+    "total": 297.24
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000445",
+    "date": "1/22/2025",
+    "total": 188.86
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000446",
+    "date": "1/17/2025",
+    "total": 102.25
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000447",
+    "date": "1/1/2025",
+    "total": 7.81
+  },
+  {
+    "customerId": "c008",
+    "transactionId": "t000448",
+    "date": "3/25/2025",
+    "total": 373.26
+  },
+  {
+    "customerId": "c005",
+    "transactionId": "t000449",
+    "date": "1/30/2025",
+    "total": 91.53
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t000450",
+    "date": "3/24/2025",
+    "total": 79.51
+  },
+  {
+    "customerId": "c0025",
+    "transactionId": "t000451",
+    "date": "1/9/2025",
+    "total": 146.31
+  },
+  {
+    "customerId": "c0039",
+    "transactionId": "t000452",
+    "date": "1/14/2025",
+    "total": 95.37
+  },
+  {
+    "customerId": "c0028",
+    "transactionId": "t000453",
+    "date": "2/23/2025",
+    "total": 128.12
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000454",
+    "date": "3/7/2025",
+    "total": 80.6
+  },
+  {
+    "customerId": "c0049",
+    "transactionId": "t000455",
+    "date": "1/11/2025",
+    "total": 47.75
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000456",
+    "date": "1/31/2025",
+    "total": 366.55
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000457",
+    "date": "2/4/2025",
+    "total": 260.44
+  },
+  {
+    "customerId": "c0011",
+    "transactionId": "t000458",
+    "date": "1/4/2025",
+    "total": 346.37
+  },
+  {
+    "customerId": "c0010",
+    "transactionId": "t000459",
+    "date": "1/21/2025",
+    "total": 219.12
+  },
+  {
+    "customerId": "c0012",
+    "transactionId": "t000460",
+    "date": "2/22/2025",
+    "total": 77.92
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000461",
+    "date": "1/18/2025",
+    "total": 39.86
+  },
+  {
+    "customerId": "c0031",
+    "transactionId": "t000462",
+    "date": "2/4/2025",
+    "total": 369.42
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t000463",
+    "date": "3/16/2025",
+    "total": 168.7
+  },
+  {
+    "customerId": "c0015",
+    "transactionId": "t000464",
+    "date": "1/18/2025",
+    "total": 310.06
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000465",
+    "date": "1/7/2025",
+    "total": 116.2
+  },
+  {
+    "customerId": "c001",
+    "transactionId": "t000466",
+    "date": "3/23/2025",
+    "total": 199.17
+  },
+  {
+    "customerId": "c0033",
+    "transactionId": "t000467",
+    "date": "3/14/2025",
+    "total": 197.96
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000468",
+    "date": "2/7/2025",
+    "total": 194.67
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000469",
+    "date": "3/30/2025",
+    "total": 232.28
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t000470",
+    "date": "2/9/2025",
+    "total": 161.68
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000471",
+    "date": "1/15/2025",
+    "total": 89.61
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000472",
+    "date": "1/19/2025",
+    "total": 304.97
+  },
+  {
+    "customerId": "c0013",
+    "transactionId": "t000473",
+    "date": "2/14/2025",
+    "total": 250.21
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000474",
+    "date": "3/15/2025",
+    "total": 119.4
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000475",
+    "date": "3/22/2025",
+    "total": 1.2
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000476",
+    "date": "2/1/2025",
+    "total": 109.56
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000477",
+    "date": "1/28/2025",
+    "total": 66.34
+  },
+  {
+    "customerId": "c0014",
+    "transactionId": "t000478",
+    "date": "3/18/2025",
+    "total": 106.46
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000479",
+    "date": "1/15/2025",
+    "total": 364.52
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000480",
+    "date": "3/21/2025",
+    "total": 313.72
+  },
+  {
+    "customerId": "c0043",
+    "transactionId": "t000481",
+    "date": "1/10/2025",
+    "total": 369.99
+  },
+  {
+    "customerId": "c0032",
+    "transactionId": "t000482",
+    "date": "1/27/2025",
+    "total": 372.97
+  },
+  {
+    "customerId": "c0036",
+    "transactionId": "t000483",
+    "date": "3/19/2025",
+    "total": 103.52
+  },
+  {
+    "customerId": "c0015",
+    "transactionId": "t000484",
+    "date": "1/19/2025",
+    "total": 370.39
+  },
+  {
+    "customerId": "c0022",
+    "transactionId": "t000485",
+    "date": "3/8/2025",
+    "total": 23.29
+  },
+  {
+    "customerId": "c009",
+    "transactionId": "t000486",
+    "date": "1/4/2025",
+    "total": 158.67
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000487",
+    "date": "2/10/2025",
+    "total": 104.61
+  },
+  {
+    "customerId": "c0011",
+    "transactionId": "t000488",
+    "date": "1/27/2025",
+    "total": 260.53
+  },
+  {
+    "customerId": "c0044",
+    "transactionId": "t000489",
+    "date": "2/14/2025",
+    "total": 227.61
+  },
+  {
+    "customerId": "c0029",
+    "transactionId": "t000490",
+    "date": "3/11/2025",
+    "total": 88.2
+  },
+  {
+    "customerId": "c007",
+    "transactionId": "t000491",
+    "date": "1/10/2025",
+    "total": 276.21
+  },
+  {
+    "customerId": "c0046",
+    "transactionId": "t000492",
+    "date": "1/9/2025",
+    "total": 108.51
+  },
+  {
+    "customerId": "c0017",
+    "transactionId": "t000493",
+    "date": "2/15/2025",
+    "total": 398.08
+  },
+  {
+    "customerId": "c0020",
+    "transactionId": "t000494",
+    "date": "1/24/2025",
+    "total": 138.3
+  },
+  {
+    "customerId": "c0037",
+    "transactionId": "t000495",
+    "date": "1/14/2025",
+    "total": 40.26
+  },
+  {
+    "customerId": "c0048",
+    "transactionId": "t000496",
+    "date": "3/18/2025",
+    "total": 1.17
+  },
+  {
+    "customerId": "c0047",
+    "transactionId": "t000497",
+    "date": "3/13/2025",
+    "total": 308.3
+  },
+  {
+    "customerId": "c0026",
+    "transactionId": "t000498",
+    "date": "2/27/2025",
+    "total": 84.52
+  },
+  {
+    "customerId": "c003",
+    "transactionId": "t000499",
+    "date": "1/1/2025",
+    "total": 67.7
+  },
+  {
+    "customerId": "c0030",
+    "transactionId": "t000500",
+    "date": "3/10/2025",
+    "total": 357.17
+  }
+]
