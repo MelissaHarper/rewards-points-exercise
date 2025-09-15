@@ -1,5 +1,3 @@
-import transactions from "../assets/transactions.json";
-
 /**
  * Calculates rewards points using the given criteria in README.md
  *
@@ -30,7 +28,9 @@ export const calculateRewards = (total) => {
  * @property {int} month // month iterated according to number of months in given array adding total points for each month
  */
 export const getCustomerPoints = async (customerId) => {
-  let data = transactions.filter(
+  const response = await fetch("/transactions.json"); // Fetch from public folder
+  const transactions = await response.json();
+  const data = transactions.filter(
     (transaction) => transaction.customerId == customerId
   );
   if (data.length === 0) {
