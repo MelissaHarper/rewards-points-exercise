@@ -1,14 +1,17 @@
+import { Link } from "react-router-dom";
+import coffeeBeans from "../images/coffee-beans.png";
+
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
-        <a className="navbar-brand d-flex align-items-center" href="/">
+        <a className="navbar-brand d-flex align-items-center" href="index.html">
           <img
-            src="images/coffee-beans.png"
+            src={coffeeBeans}
             className="navbar-brand-image img-fluid"
-            alt=""
+            alt="Barista Cafe Template"
           />
-          Barista.co
+          Barista
         </a>
 
         <button
@@ -26,35 +29,42 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-lg-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/#section_1">
+              <a className="nav-link click-scroll" href="/home/#section_1">
                 Home
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/#section_2">
-                About us
+              <a className="nav-link click-scroll" href="/home/#section_2">
+                About
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/#section_3">
+              <a className="nav-link click-scroll" href="/home/#section_3">
                 Our Menu
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/#section_4">
-                Testimonials
+              <a className="nav-link click-scroll" href="/home/#section_4">
+                Reviews
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/#section_5">
+              <a className="nav-link click-scroll" href="/home/#section_5">
                 Contact
               </a>
             </li>
           </ul>
+
+          <div className="ms-lg-3">
+            <Link className="btn custom-btn custom-border-btn" to="/">
+              Rewards Points
+              <i className="bi-arrow-up-right ms-2"></i>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
