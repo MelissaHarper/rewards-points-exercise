@@ -1,6 +1,6 @@
 # rewards-points-exercise
 
-Calculate customer rewards points for a three month period.
+This is a quick mockup of a retail store's rewards points page. It isn't meant to be a "production" page, but just a quick and dirty mock up to show the calculated logic. The calculation logic can be found in the [utils.jsx file](./customer-rewards/src/components/utils.jsx)
 
 ## Scenario
 
@@ -16,3 +16,28 @@ Calculate customer rewards points for a three month period.
 - Make up a data set to best demonstrate your solution
 - Check solution into GitHub
 
+## Installation
+
+To install and run this example locally, follow these steps:
+
+1. Clone the repository:
+```
+git clone https://github.com/MelissaHarper/rewards-points-exercise.git
+```
+
+2. Navigate to the project directory:
+```
+cd ./customer-rewards
+```
+
+3. Install the dependencies:
+```
+npm install
+```
+
+4. Start the development server:
+```
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`.
