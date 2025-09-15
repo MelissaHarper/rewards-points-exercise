@@ -4,6 +4,12 @@ This is a quick rendering of a retail store's rewards points page. It isn't mean
 
 The website template can be found at [toolplate.com](https://www.tooplate.com/view/2137-barista-cafe). It was initially a Bootstrap 5 HTML layout template that I tweaked to use within a React JS app.
 
+As on other projects, I would typically have the user sign in to see their rewards points and include authorization with a call to the backend. The endpoint would look something like "api/users/${userId}/points". For the sake of demonstration simplicity, here you'll simply enter a customer number between 1 and 50. 
+
+I've included on the single page, an example of a customer view for rewards points as well as the view an admin might use to see rewards points from a single customer or from all customers. 
+
+While the scenario includes only a three month period, I chose to write the code to be flexible in accepting any period of time and/or any three month period, dynamically rendering the months provided in the data.
+
 ## Scenario
 
 - A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.
