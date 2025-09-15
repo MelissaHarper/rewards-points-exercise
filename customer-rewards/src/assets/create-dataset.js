@@ -64,7 +64,7 @@ function getRandomIndex(arr) {
 // Create customer ids
 const customerIds = [];
 
-for (let i = 0; i < numCustomers; i++) {
+for (let i = 1; i < numCustomers + 1; i++) {
   customerIds.push(i);
 }
 
@@ -86,7 +86,7 @@ for (let i = 1; i < numTransactions + 1; i++) {
 
 // Write to file
 fs.writeFile(
-  "./src/assets/transactions.json",
+  "./public/transactions.json",
   JSON.stringify(transactions, null, 2),
   (writeErr) => {
     if (writeErr) {
