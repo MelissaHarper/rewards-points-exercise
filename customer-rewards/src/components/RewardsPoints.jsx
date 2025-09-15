@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { getCustomerPoints } from "./utils.jsx";
+import { getCustomerPoints, getAllCustomerPoints } from "./utils.jsx";
 import "../js/jquery.min.js";
 import "../js/bootstrap.min.js";
 import "../js/jquery.sticky.js";
@@ -11,6 +11,7 @@ function RewardsPoints() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [customerNumber, setCustomerNumber] = useState();
   const [customerPoints, setCustomerPoints] = useState();
+  const [allCustomerPoints, setAllCustomerPoints] = useState();
   const monthOrder = [
     "January",
     "February",
@@ -36,6 +37,31 @@ function RewardsPoints() {
       alert("Error getting points:" + error.message);
     }
   };
+
+  const handleAllCustomers = async () => {
+    try {
+      const allPoints = await getAllCustomerPoints();
+      setAllCustomerPoints(allPoints);
+    } catch (error) {
+      alert("Error fetching all customer points: " + error.message);
+    }
+  };
+
+  const renderCustomerPoints = (pointsObj) => (
+    <>
+      <ul className="list-group list-group-flush">
+        {Object.entries(pointsObj)
+          .filter(([key]) => key !== "totalPoints")
+          .sort(([a], [b]) => monthOrder.indexOf(a) - monthOrder.indexOf(b))
+          .map(([month, points]) => (
+            <li className="list-group-item" key={month}>
+              <strong>{month}:</strong> {points} points
+            </li>
+          ))}
+      </ul>
+      <h3 className="text-white mt-3">Total Points: {pointsObj.totalPoints}</h3>
+    </>
+  );
 
   return (
     <>
@@ -98,87 +124,118 @@ function RewardsPoints() {
         </div>
       </nav>
 
-      <section className="booking-section section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-10 col-12 mx-auto">
-              <div className="booking-form-wrap">
-                <div className="row">
-                  <div className="col-lg-7 col-12 p-0">
+      <>
+        <section className="booking-section section-padding">
+          {/* Customer View */}
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-10 col-12 mx-auto">
+                <div className="booking-form-wrap">
+                  <div className="row">
                     <div className="text-center mb-4 pb-lg-2">
                       <h2 className="text-white">Rewards Points</h2>
-                      {isSubmitted ? (
-                        <div>
-                          <ul className="list-group list-group-flush">
-                            {Object.entries(customerPoints)
-                              .filter(([key]) => key !== "totalPoints")
-                              .sort(
-                                ([a], [b]) =>
-                                  monthOrder.indexOf(a) - monthOrder.indexOf(b)
-                              )
-                              .map(([month, points]) => (
-                                <li className="list-group-item" key={month}>
-                                  <strong>{month}:</strong> {points} points
-                                </li>
-                              ))}
-                          </ul>
-                          <h3 className="text-white">
-                            Total Points: {customerPoints.totalPoints}
-                          </h3>
-                        </div>
+                      <h3 className="text-white">(Customer View)</h3>
+                      {isSubmitted && customerPoints ? (
+                        renderCustomerPoints(customerPoints)
                       ) : (
                         <>
                           <em className="text-white">
                             Enter your customer number to see your rewards
-                            points!
+                            points.
                           </em>
-                          <div className="booking-form-body">
-                            <div className="row">
-                              <div className="col-lg-6 col-12">
-                                <input
-                                  type="text"
-                                  name="booking-form-name"
-                                  id="booking-form-name"
-                                  className="form-control"
-                                  placeholder="ex: c0045"
-                                  onChange={(e) =>
-                                    setCustomerNumber(e.target.value)
-                                  }
-                                  required
-                                />
-                              </div>
-
-                              <div className="col-lg-4 col-md-10 col-8 mx-auto mt-2">
-                                <button
-                                  type="submit"
-                                  className="form-control"
-                                  onClick={handleSubmit}
-                                >
-                                  Submit
-                                </button>
-                              </div>
-                            </div>
-                          </div>
+                          <form onSubmit={handleSubmit}>
+                            <input
+                              type="text"
+                              className="form-control my-2"
+                              placeholder="(Enter a number from 1-50)"
+                              onChange={(e) =>
+                                setCustomerNumber(e.target.value)
+                              }
+                              required
+                            />
+                            <button
+                              type="submit"
+                              className="btn btn-primary mt-2"
+                            >
+                              Submit
+                            </button>
+                          </form>
                         </>
                       )}
-                    </div>
-                  </div>
-
-                  <div className="col-lg-5 col-12 p-0">
-                    <div className="booking-form-image-wrap">
-                      <img
-                        src="images/barman-with-fruits.jpg"
-                        className="booking-form-image img-fluid"
-                        alt=""
-                      />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+
+          {/* Admin View */}
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-10 col-12 mx-auto">
+                <div className="booking-form-wrap">
+                  <div className="row">
+                    <div className="text-center mb-4 pb-lg-2">
+                      <h2 className="text-white">Rewards Points</h2>
+                      <h3 className="text-white">(Admin View)</h3>
+                      {isSubmitted && renderCustomerPoints(customerPoints)}(
+                      <>
+                        <em className="text-white">
+                          Enter customer number to see rewards points.
+                        </em>
+                        <form onSubmit={handleSubmit}>
+                          <input
+                            type="text"
+                            className="form-control my-2"
+                            placeholder="(Enter a number from 1-50)"
+                            onChange={(e) => setCustomerNumber(e.target.value)}
+                            required
+                          />
+                          <button
+                            type="submit"
+                            className="btn btn-primary mt-2"
+                          >
+                            Submit
+                          </button>
+                        </form>
+                      </>
+                      ){/* All customer lookup */}
+                      <div>
+                        <h5 className="text-white">
+                          View All Customers Points
+                        </h5>
+                        <button
+                          className="text-white"
+                          onClick={handleAllCustomers}
+                        >
+                          Get All Customer Points
+                        </button>
+                        {allCustomerPoints && (
+                          <div className="list-group list-group-flush">
+                            {Object.entries(allCustomerPoints).map(
+                              ([customerId, pointsObj]) => (
+                                <div
+                                  key={customerId}
+                                  className="mb-4 border p-3 rounded"
+                                >
+                                  <h6 className="text-white">
+                                    Customer ID: {customerId}
+                                  </h6>
+                                  {renderCustomerPoints(pointsObj)}
+                                </div>
+                              )
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </>
 
       <footer className="site-footer">
         <div className="container">
