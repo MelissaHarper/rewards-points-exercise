@@ -1,8 +1,14 @@
 import transactions from "../assets/transactions.json";
 
+/**
+ * Calculates rewards points using the given criteria in README.md
+ *
+ * @param {number} total
+ * @returns {number}
+ */
 export const calculateRewards = (total) => {
   let totalPoints = 0;
-  total = Math.round(total);
+  total = Math.floor(total);
   if (total > 100) {
     const over100 = total - 100;
     totalPoints += over100 * 2 + 50;
@@ -18,12 +24,20 @@ export const calculateRewards = (total) => {
  *
  * @async
  * @param {int} customerId
- * @returns {unknown}
+ * @returns
+ * @typedef {Object} customerPoints
+ * @property {int} totalPoints
+ * @property {int} month // month iterated according to number of months in given array adding total points for each month
  */
 export const getCustomerPoints = async (customerId) => {
   let data = transactions.filter(
-    (transaction) => transaction.customerId === customerId
+    (transaction) => transaction.customerId == customerId
   );
+  if (data.length === 0) {
+    throw new Error(
+      `No transactions in this time period for Customer Id: ${customerId}`
+    );
+  }
 
   let customerPoints = { totalPoints: 0 };
 
