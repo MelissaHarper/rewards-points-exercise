@@ -1,6 +1,8 @@
 # rewards-points-exercise
 
-This is a quick mockup of a retail store's rewards points page. It isn't meant to be a "production" page, but just a quick and dirty mock up to show the calculated logic. The calculation logic can be found in the [utils.jsx file](./customer-rewards/src/components/utils.jsx)
+This is a quick rendering of a retail store's rewards points page. It isn't meant to be a "production" page, but just a quick and dirty mock up to show the calculated logic. The calculation logic can be found in the [utils.jsx file](./customer-rewards/src/components/utils.jsx)
+
+The website template can be found at [toolplate.com](https://www.tooplate.com/view/2137-barista-cafe). It was initially a Bootstrap 5 HTML layout template that I tweaked to use within a React JS app.
 
 ## Scenario
 
