@@ -2,7 +2,7 @@
  * Generate a dataset of 500 transactions between $1 and $400 from 50 customers
  * returning array of transaction objects in a Json file
  * @typedef {Object} transactions
- * @property {string} customerId
+ * @property {int} customerId
  * @property {string} transactionId
  * @property {Date} date
  * @property {number} total
@@ -52,7 +52,7 @@ function getRandomTransactionTotal() {
 }
 
 /**
- * Description placeholder
+ * Gets random index number in array
  *
  * @param {Array} arr
  * @returns {int} A random index from the length of the array
@@ -65,7 +65,7 @@ function getRandomIndex(arr) {
 const customerIds = [];
 
 for (let i = 0; i < numCustomers; i++) {
-  customerIds.push(`c00${i}`);
+  customerIds.push(i);
 }
 
 // Create transactions
@@ -86,7 +86,7 @@ for (let i = 1; i < numTransactions + 1; i++) {
 
 // Write to file
 fs.writeFile(
-  "./transactions.json",
+  "./src/assets/transactions.json",
   JSON.stringify(transactions, null, 2),
   (writeErr) => {
     if (writeErr) {
