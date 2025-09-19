@@ -6,7 +6,7 @@ const RewardsPage = () => {
       <div className="row">
         <div className="col-lg-10 col-12 mx-auto"></div>
 
-        <section className="booking-section section-padding">
+        <section className="rewards-section section-padding">
           <RewardsPoints view={"Customer View"} />
           <RewardsPoints view={"Admin View"} />
         </section>

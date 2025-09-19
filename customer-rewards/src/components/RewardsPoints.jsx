@@ -29,7 +29,7 @@ function RewardsPoints({ view }) {
   };
 
   return (
-    <div className="booking-form-wrap">
+    <div className="rewards-form-wrap">
       <div className="row">
         <div className="text-center mb-4 pb-lg-2">
           <h2 className="text-white">Rewards Points</h2>
@@ -59,28 +59,29 @@ function RewardsPoints({ view }) {
               Submit
             </button>
           </form>
+          {view == "Admin View" && (
+            <>
+              <button className="btn btn-primary" onClick={handleAllCustomers}>
+                Get All Customer Points
+              </button>
+              {allCustomerPoints && (
+                <div className="list-group list-group-flush">
+                  {Object.entries(allCustomerPoints).map(
+                    ([customerId, customerPoints]) => (
+                      <div key={customerId} className="mb-4 border p-3 rounded">
+                        <h6 className="text-white">
+                          Customer ID: {customerId}
+                        </h6>
+                        <RenderCustomerPoints customerPoints={customerPoints} />
+                      </div>
+                    )
+                  )}
+                </div>
+              )}
+            </>
+          )}
         </div>
       </div>
-      {view == "Admin View" && (
-        <>
-          <h5 className="text-white">View All Customers Points</h5>
-          <button className="text-white" onClick={handleAllCustomers}>
-            Get All Customer Points
-          </button>
-          {allCustomerPoints && (
-            <div className="list-group list-group-flush">
-              {Object.entries(allCustomerPoints).map(
-                ([customerId, customerPoints]) => (
-                  <div key={customerId} className="mb-4 border p-3 rounded">
-                    <h6 className="text-white">Customer ID: {customerId}</h6>
-                    <RenderCustomerPoints customerPoints={customerPoints} />
-                  </div>
-                )
-              )}
-            </div>
-          )}
-        </>
-      )}
     </div>
   );
 }
