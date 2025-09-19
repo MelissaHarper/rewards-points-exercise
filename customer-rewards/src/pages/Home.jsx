@@ -1,9 +1,3 @@
-import "../js/jquery.min.js";
-import "../js/bootstrap.min.js";
-import "../js/jquery.sticky.js";
-import "../js/click-scroll.js";
-import "../js/vegas.min.js";
-import "../js/custom.js";
 import pexels from "../videos/pexels-mike-jones-9046237.mp4";
 import portrait from "../images/team/portrait-elegant-old-man-wearing-suit.jpg";
 import barista from "../images/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg";
