@@ -1,28 +1,28 @@
 /**
- * Calculates rewards points using the given criteria in README.md
+ * Calculates rewards points: 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent between $50 and $100 in each transaction.
  *
- * @param {number} total
+ * @param {number} currency
  * @returns {number}
  */
-export const calculateRewards = (total) => {
+export const calculateRewards = (currency) => {
   let totalPoints = 0;
-  total = Math.floor(total);
-  if (total > 100) {
-    const over100 = total - 100;
+  currency = Math.floor(currency);
+  if (currency > 100) {
+    const over100 = currency - 100;
     totalPoints += over100 * 2 + 50;
-  } else if (total > 50) {
-    totalPoints += total - 50;
+  } else if (currency > 50) {
+    totalPoints += currency - 50;
   }
 
   return totalPoints;
 };
 
 /**
- * Fetches all transactions made by the given customerId, calculates rewards points using the given criteria in README.md and returns an object of the total points for each month and total points overall
+ * Fetches all transactions made by the given customerId, calculates rewards points, and returns a promise object of the total points for each month and total points overall
  *
  * @async
  * @param {int} customerId
- * @returns
+ * @returns {Promise<customerPoints>}
  * @typedef {Object} customerPoints
  * @property {int} totalPoints
  * @property {int} month // month iterated according to number of months in given array adding total points for each month
@@ -66,7 +66,7 @@ export const getCustomerPoints = async (customerId) => {
  *
  * @async
  * @param {int} customerId
- * @returns
+ * @returns {Promise<customerPoints}
  * @typedef {Object} customerPoints
  * @property {int} totalPoints
  * @property {int} month // month iterated according to number of months in given array adding total points for each month
