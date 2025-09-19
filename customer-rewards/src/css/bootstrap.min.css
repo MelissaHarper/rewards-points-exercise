@@ -46,8 +46,8 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-body-color-rgb: 188, 108, 37;
+  --bs-body-bg-rgb: 188, 108, 37;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -62,8 +62,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #bc6c25;
+  --bs-body-bg: #bc6c25;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -4687,6 +4687,7 @@ fieldset:disabled .btn {
   --bs-list-group-active-border-color: #0d6efd;
   display: flex;
   flex-direction: column;
+  margin: 0 0.75rem;
   padding-left: 0;
   margin-bottom: 0;
   border-radius: var(--bs-list-group-border-radius);
@@ -4896,7 +4897,7 @@ fieldset:disabled .btn {
   }
 }
 .list-group-flush {
-  border-radius: 0;
+  border-radius: var(--bs-list-group-border-radius);
   opacity: 0.65;
 }
 .list-group-flush > .list-group-item {
@@ -10444,4 +10445,4 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.min.css.map */
+/* sourceMappingURL=bootstrap.min.css.map */
