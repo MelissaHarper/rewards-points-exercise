@@ -1,31 +1,12 @@
 import { useState } from "react";
+import RenderCustomerPoints from "./RenderCustomerPoints";
 import { getCustomerPoints, getAllCustomerPoints } from "./utils.jsx";
-import "../js/jquery.min.js";
-import "../js/bootstrap.min.js";
-import "../js/jquery.sticky.js";
-import "../js/click-scroll.js";
-import "../js/vegas.min.js";
-import "../js/custom.js";
 
 function RewardsPoints({ view }) {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [customerNumber, setCustomerNumber] = useState();
-  const [customerPoints, setCustomerPoints] = useState();
-  const [allCustomerPoints, setAllCustomerPoints] = useState();
-  const monthOrder = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
+  const [customerNumber, setCustomerNumber] = useState(null);
+  const [customerPoints, setCustomerPoints] = useState(null);
+  const [allCustomerPoints, setAllCustomerPoints] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -47,31 +28,15 @@ function RewardsPoints({ view }) {
     }
   };
 
-  const renderCustomerPoints = (pointsObj) => (
-    <>
-      <ul className="list-group list-group-flush">
-        {Object.entries(pointsObj)
-          .filter(([key]) => key !== "totalPoints")
-          .sort(([a], [b]) => monthOrder.indexOf(a) - monthOrder.indexOf(b))
-          .map(([month, points]) => (
-            <li className="list-group-item" key={month}>
-              <strong>{month}:</strong> {points} points
-            </li>
-          ))}
-      </ul>
-      <h3 className="text-white mt-3">Total Points: {pointsObj.totalPoints}</h3>
-    </>
-  );
-
   return (
     <div className="booking-form-wrap">
       <div className="row">
         <div className="text-center mb-4 pb-lg-2">
           <h2 className="text-white">Rewards Points</h2>
           <h3 className="text-white">{`(${view})`}</h3>
-          {isSubmitted &&
-            customerPoints &&
-            renderCustomerPoints(customerPoints)}
+          {isSubmitted && customerPoints && (
+            <RenderCustomerPoints customerPoints={customerPoints} />
+          )}
 
           {view !== "Admin View" ? (
             <em className="text-white">
@@ -105,10 +70,10 @@ function RewardsPoints({ view }) {
           {allCustomerPoints && (
             <div className="list-group list-group-flush">
               {Object.entries(allCustomerPoints).map(
-                ([customerId, pointsObj]) => (
+                ([customerId, customerPoints]) => (
                   <div key={customerId} className="mb-4 border p-3 rounded">
                     <h6 className="text-white">Customer ID: {customerId}</h6>
-                    {renderCustomerPoints(pointsObj)}
+                    <RenderCustomerPoints customerPoints={customerPoints} />
                   </div>
                 )
               )}
