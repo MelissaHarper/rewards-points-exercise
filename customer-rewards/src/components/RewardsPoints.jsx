@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { memo, useState } from "react";
 import RenderCustomerPoints from "./RenderCustomerPoints.jsx";
 import { getCustomerPoints, getAllCustomerPoints } from "./utils.jsx";
 
@@ -86,4 +86,4 @@ function RewardsPoints({ view }) {
   );
 }
 
-export default RewardsPoints;
+export default memo(RewardsPoints);

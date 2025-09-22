@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const monthOrder = [
   "January",
   "February",
@@ -33,4 +35,4 @@ function RenderCustomerPoints({ customerPoints }) {
   );
 }
 
-export default RenderCustomerPoints;
+export default memo(RenderCustomerPoints);

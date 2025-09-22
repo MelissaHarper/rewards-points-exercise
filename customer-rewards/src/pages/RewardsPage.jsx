@@ -1,3 +1,4 @@
+import { memo } from "react";
 import RewardsPoints from "../components/RewardsPoints";
 
 const RewardsPage = () => {
@@ -14,4 +15,4 @@ const RewardsPage = () => {
     </div>
   );
 };
-export default RewardsPage;
+export default memo(RewardsPage);

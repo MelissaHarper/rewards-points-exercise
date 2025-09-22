@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const Footer = () => {
   return (
     <footer className="site-footer">
@@ -91,4 +93,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default memo(Footer);

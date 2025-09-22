@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import coffeeBeans from "../images/coffee-beans.png";
+import { memo } from "react";
 
 const NavBar = () => {
   return (
@@ -71,4 +72,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default memo(NavBar);

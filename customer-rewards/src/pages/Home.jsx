@@ -6,6 +6,7 @@ import smile from "../images/team/smiley-business-woman-working-cashier.jpg";
 import sweater from "../images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg";
 import senior from "../images/reviews/senior-man-white-sweater-eyeglasses.jpg";
 import glasses from "../images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg";
+import { memo } from "react";
 
 function Home() {
   return (
@@ -632,4 +633,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default memo(Home);
