@@ -1,12 +1,14 @@
 import { memo, useState } from "react";
 import RenderCustomerPoints from "./RenderCustomerPoints.jsx";
 import { getCustomerPoints, getAllCustomerPoints } from "./utils.jsx";
+import { Alert } from "react-bootstrap";
 
 function RewardsPoints({ view }) {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [customerNumber, setCustomerNumber] = useState(null);
   const [customerPoints, setCustomerPoints] = useState(null);
   const [allCustomerPoints, setAllCustomerPoints] = useState(null);
+  const [show, setShow] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -15,7 +17,8 @@ function RewardsPoints({ view }) {
       setCustomerPoints(points);
       setIsSubmitted(true);
     } catch (error) {
-      alert("Error getting points:" + error.message);
+      setShow(true);
+      console.log(error.message);
     }
   };
 
@@ -24,7 +27,8 @@ function RewardsPoints({ view }) {
       const allPoints = await getAllCustomerPoints();
       setAllCustomerPoints(allPoints);
     } catch (error) {
-      alert("Error fetching all customer points: " + error.message);
+      setShow(true);
+      console.log(error.message);
     }
   };
 
@@ -55,6 +59,15 @@ function RewardsPoints({ view }) {
               onChange={(e) => setCustomerNumber(e.target.value)}
               required
             />
+            {show && (
+              <Alert
+                variant="secondary"
+                onClose={() => setShow(false)}
+                dismissible
+              >
+                Error fetching points.{" "}
+              </Alert>
+            )}
             <button type="submit" className="btn btn-primary mt-2">
               Submit
             </button>
