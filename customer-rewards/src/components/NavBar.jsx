@@ -30,33 +30,23 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-lg-auto">
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="/home/#section_1">
-                Home
-              </a>
+              <a className="nav-link click-scroll">Home</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="/home/#section_2">
-                About
-              </a>
+              <a className="nav-link click-scroll">About</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="/home/#section_3">
-                Our Menu
-              </a>
+              <a className="nav-link click-scroll">Our Menu</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="/home/#section_4">
-                Reviews
-              </a>
+              <a className="nav-link click-scroll">Reviews</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link click-scroll" href="/home/#section_5">
-                Contact
-              </a>
+              <a className="nav-link click-scroll">Contact</a>
             </li>
           </ul>
 
