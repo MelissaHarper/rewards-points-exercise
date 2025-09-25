@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { useMemo, memo } from "react";
 
 const monthOrder = [
   "January",
@@ -16,17 +16,20 @@ const monthOrder = [
 ];
 
 function RenderCustomerPoints({ customerPoints }) {
+  const sortedPoints = useMemo(() => {
+    return Object.entries(customerPoints)
+      .filter(([key]) => key !== "totalPoints")
+      .sort(([a], [b]) => monthOrder.indexOf(a) - monthOrder.indexOf(b));
+  }, [customerPoints]);
+
   return (
     <>
       <ul className="list-group list-group-flush">
-        {Object.entries(customerPoints)
-          .filter(([key]) => key !== "totalPoints")
-          .sort(([a], [b]) => monthOrder.indexOf(a) - monthOrder.indexOf(b))
-          .map(([month, points]) => (
-            <li className="list-group-item" key={month}>
-              <strong>{month}:</strong> {points} points
-            </li>
-          ))}
+        {sortedPoints.map(([month, points]) => (
+          <li className="list-group-item" key={month}>
+            <strong>{month}:</strong> {points} points
+          </li>
+        ))}
       </ul>
       <h3 className="text-white mt-3">
         Total Points: {customerPoints.totalPoints}
