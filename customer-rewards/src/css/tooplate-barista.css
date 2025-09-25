@@ -784,10 +784,10 @@ strong {
 -----------------------------------------*/
 .rewards-section {
   background-image: url("../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg");
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* background-size: inherit; */
-  /* position: relative; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+  position: relative;
 }
 
 .rewards-form-wrap {

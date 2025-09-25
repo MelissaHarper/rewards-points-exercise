@@ -1,5 +1,8 @@
 import { memo } from "react";
-import RewardsPoints from "../components/RewardsPoints";
+import { lazy, Suspense } from "react";
+import LoadingSpinner from "../components/LoadingSpinner";
+
+const RewardsPoints = lazy(() => import("../components/RewardsPoints"));
 
 const RewardsPage = () => {
   return (
@@ -8,8 +11,9 @@ const RewardsPage = () => {
         <div className="col-lg-10 col-12 mx-auto"></div>
 
         <section className="rewards-section section-padding">
-          <RewardsPoints view={"Customer View"} />
-          <RewardsPoints view={"Admin View"} />
+          <Suspense fallback={<LoadingSpinner />}>
+            <RewardsPoints />
+          </Suspense>
         </section>
       </div>
     </div>

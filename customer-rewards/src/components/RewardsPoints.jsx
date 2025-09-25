@@ -1,98 +1,66 @@
-import { memo, useState } from "react";
+import { memo, useState, useEffect } from "react";
 import RenderCustomerPoints from "./RenderCustomerPoints.jsx";
-import { getCustomerPoints, getAllCustomerPoints } from "./utils.jsx";
+import { getCustomerPoints } from "./utils.jsx";
 import { Alert } from "react-bootstrap";
 
-function RewardsPoints({ view }) {
-  const [isSubmitted, setIsSubmitted] = useState(false);
+function RewardsPoints() {
   const [customerNumber, setCustomerNumber] = useState(null);
   const [customerPoints, setCustomerPoints] = useState(null);
-  const [allCustomerPoints, setAllCustomerPoints] = useState(null);
-  const [show, setShow] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [showError, setShowError] = useState(false);
+
+  const handleInput = (e) => setCustomerNumber(e.target.value);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     try {
       const points = await getCustomerPoints(customerNumber);
       setCustomerPoints(points);
-      setIsSubmitted(true);
+      setIsLoading(false);
     } catch (error) {
-      setShow(true);
+      setShowError(true);
       console.log(error.message);
     }
   };
 
-  const handleAllCustomers = async () => {
-    try {
-      const allPoints = await getAllCustomerPoints();
-      setAllCustomerPoints(allPoints);
-    } catch (error) {
-      setShow(true);
-      console.log(error.message);
-    }
-  };
+  useEffect(() => {
+    customerPoints && setIsLoading(false);
+  }, [customerPoints]);
 
   return (
     <div className="rewards-form-wrap">
       <div className="row">
         <div className="text-center mb-4 pb-lg-2">
           <h2 className="text-white">Rewards Points</h2>
-          <h3 className="text-white">{`(${view})`}</h3>
-          {isSubmitted && customerPoints && (
+          {customerPoints && !isLoading && (
             <RenderCustomerPoints customerPoints={customerPoints} />
           )}
 
-          {view !== "Admin View" ? (
-            <em className="text-white">
-              Enter your customer number to see your rewards points.
-            </em>
-          ) : (
-            <em className="text-white">
-              Enter a customer number to see their rewards points.
-            </em>
-          )}
+          <em className="text-white">
+            Enter your customer number to see your rewards points.
+          </em>
           <form onSubmit={handleSubmit}>
             <input
               type="text"
               className="form-control my-2"
               placeholder="(Enter a number from 1-50)"
-              onChange={(e) => setCustomerNumber(e.target.value)}
+              onChange={handleInput}
               required
             />
-            {show && (
+            {showError && (
               <Alert
                 variant="secondary"
-                onClose={() => setShow(false)}
+                onClose={() => setShowError(false)}
                 dismissible
               >
-                Error fetching points.{" "}
+                Error fetching points.
               </Alert>
             )}
             <button type="submit" className="btn btn-primary mt-2">
               Submit
             </button>
           </form>
-          {view == "Admin View" && (
-            <>
-              <button className="btn btn-primary" onClick={handleAllCustomers}>
-                Get All Customer Points
-              </button>
-              {allCustomerPoints && (
-                <div className="list-group list-group-flush">
-                  {Object.entries(allCustomerPoints).map(
-                    ([customerId, customerPoints]) => (
-                      <div key={customerId} className="mb-4 border p-3 rounded">
-                        <h6 className="text-white">
-                          Customer ID: {customerId}
-                        </h6>
-                        <RenderCustomerPoints customerPoints={customerPoints} />
-                      </div>
-                    )
-                  )}
-                </div>
-              )}
-            </>
-          )}
         </div>
       </div>
     </div>
